@@ -1,0 +1,33 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+blockquote,
+pre,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "メイリオ", Meiryo,
+    "ヒラギノ角ゴ Pro W3",
+    "HIragino Kaku Gothic Pro W3",
+    "HIragino Kaku Gothic Pro",
+    Osaka,
+    "ＭＳ Ｐゴシック", "MS P Gothic",
+    sans-serif;
+}
