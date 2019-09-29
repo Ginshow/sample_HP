@@ -1,0 +1,191 @@
+@media (max-width: 880px) {
+
+
+  html {
+    font-size: 42.5%;
+  }
+
+  .top3 {
+    /*    height: 350px;*/
+  }
+
+  .tell {
+    font-size: 22px;
+    vertical-align: middle;
+  }
+
+  .message2 {
+    /*    margin-left: 150px;*/
+  }
+
+  .wrap1 {
+    display: block;
+  }
+
+  .copyright {
+    text-align: end
+  }
+
+  .top_img {
+    height: 320px
+  }
+
+  .top h1 {
+    top: 120px
+  }
+
+  .infomation {
+    width: 400px;
+  }
+
+  .img-box img {
+    width: 170px
+  }
+
+  .img-box {
+    width: 180px
+  }
+
+  .text-box-item:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  .box__image {
+    height: 150px;
+  }
+
+  .box__flexitems__item {
+    width: 100px;
+  }
+
+  .box__horizontal-line {
+    top: -54px;
+    left: 150px;
+  }
+
+  .box__horizontal-line2 {
+    width: 80px;
+    position: relative;
+    top: 5px;
+    left: 120px;
+  }
+
+  .box__horizontal-line3 {
+    width: 50px;
+    position: relative;
+    top: 74px;
+    left: 150px;
+  }
+
+  .box__columm-line {
+    width: 1px;
+    height: 133px;
+    background-color: gray;
+    position: relative;
+    top: -60px;
+    left: 150px;
+  }
+
+  .box__flexitems {
+    top: -230px;
+    left: 200px;
+    width: 100px;
+  }
+
+  .box__flexitems__item_sub-item {
+    left: 110px;
+    top: -110px
+  }
+
+  .box__sub-item {
+    left: 310px;
+    top: -330px;
+  }
+
+  .box {
+    height: 250px;
+  }
+
+  #page_top {
+    width: 30px;
+    height: 30px;
+    bottom: 25px;
+    /*    right: 30px;*/
+  }
+
+  #page_top a {
+    height: 25px;
+    width: 30px;
+  }
+
+  .comon-table td:nth-child(1) {
+    width: 150px;
+  }
+
+  .comon-table {
+    margin: 0 auto;
+  }
+
+  .final__img {
+    top: 20%;
+  }
+
+  .flexbox__textpart {
+    /*    width: 100%;*/
+  }
+
+  .flexbox--wrap {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+
+
+}
+
+@media (max-width: 750px) {
+  .flexbox__center {
+    flex-direction: column;
+  }
+
+  .right-arrow {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 650px) {
+  .list--responsive {
+    flex-direction: column;
+  }
+
+  .list--responsive img {
+    /*    width: 70%;*/
+    padding: 30px 80px;
+    padding-bottom: 0;
+  }
+
+  .final__img {
+    left: 20%;
+  }
+
+  .flexbox--responsive {
+    justify-content: center;
+  }
+
+
+
+}
+
+@media (max-width: 1000px) {
+  #nav-drawer {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  #nav-open {
+    display: inline-block;
+  }
+}
