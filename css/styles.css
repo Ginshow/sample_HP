@@ -73,6 +73,10 @@ header {
   font-size: 1.4rem;
 }
 
+a :hover {
+  /*  color: darkorange;*/
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -849,4 +853,15 @@ header {
 
 .container {
   overflow: hidden;
+}
+
+.link:hover {
+  color: darkorange;
+  text-decoration: none;
+}
+
+.link_side:hover {
+  background: black;
+  color: darkorange;
+  text-decoration: none;
 }
