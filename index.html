@@ -3,52 +3,60 @@
 
 <head>
   <meta charset="utf-8">
-  <title>株式会社ミズサキ｜医療廃棄物収集運搬及び産業廃棄物処理</title>
-  <link rel="stylesheet" href="css/resetcss.css">
+  <title>HOME | SampleHomePage1</title>
+  <!--  <link rel="stylesheet" href="css/resetcss.css">-->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/jquery.js" defer="defer"></script>
+  <script src="https://kit.fontawesome.com/99c1c19760.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="top_img">
     <div class="container">
       <header>
-        <div class="header-top">
-          <img src="img/logo.png" alt="logo.png" class="logo">
-          <h1 class="title">株式会社◯◯◯◯</h1>
-        </div>
-        <div class="menu">
-          <a href="index.html">HOME</a>
-          <a href="medical_waste.html">医療廃棄物</a>
-          <a href="flow.html">医療廃棄物処理フロー</a>
-          <a href="industrial_waste.html">産業廃棄物処理</a>
-          <a href="company.html">会社概要</a>
-        </div>
+        <div class="row mt-4">
+          <i class="fab fa-html5 fa-4x mt-3 ml-3"></i>
+          <h1 class="title ml-3 d-flex align-items-center">SampleHomePage1</h1>
+          <div class="menu      ml-auto">
+            <a href="index.html">page1</a>
+            <a href="medical_waste.html">page2</a>
+            <a href="flow.html">page3</a>
+            <a href="industrial_waste.html">page4</a>
+            <a href="company.html">page5</a>
+          </div>
 
-        <div id="nav-drawer">
-          <input id="nav-input" type="checkbox" class="nav-unshown">
-          <label id="nav-open" for="nav-input"><span></span></label>
-          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-          <div id="nav-content">
-            <div class="menu-block">
-              <a href="index.html">HOME</a>
-              <a href="medical_waste.html">医療廃棄物</a>
-              <a href="flow.html">医療廃棄物処理フロー</a>
-              <a href="industrial_waste.html">産業廃棄物処理</a>
-              <a href="company.html">会社概要</a>
+          <!--
+          <div class="col-auto">
+            Variable width content
+          </div>
+-->
+
+          <div id="nav-drawer" class="col-1 mt-4 ml-auto">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <div class="menu-block">
+                <a href="index.html">page1</a>
+                <a href="medical_waste.html">page2</a>
+                <a href="flow.html">page3</a>
+                <a href="industrial_waste.html">page4</a>
+                <a href="company.html">page5</a>
+              </div>
             </div>
           </div>
+
         </div>
 
       </header>
       <div class="top">
-        <h1 class="top__message">信頼の設備と管理体制で<br>
-          安全・確実そしてクリーンに<br>
-          街の自然と人の暮らしを守ります<br>
+        <h1 class="top__message">TEXTTEXTTEXTTEXT<br>
+          TEXTTEXTTEXTTEXTTEXT<br>
+          TEXTTEXTTEXTTEXTTEXTTEXT<br>
         </h1>
       </div>
     </div>
@@ -57,30 +65,29 @@
   <div class="index">
     <div class="top2">
       <div class="container">
-        <h2>廃棄物の処理でお困りな事ありませんか？</h2>
-        <p>名古屋市岩倉市の◯◯◯◯では、主に愛知県と岐阜県のエリアで<br>
-          特別産業廃棄物の収集、運搬を行っております。また廃プラスチックの収集、運搬から<br>
-          中間処理まで幅広く取り組んでおります。<br>
-          リサイクルにも積極的に取り組み、地域に皆様に住みやすい環境をお届けいたします。
+        <h2>TEXTTEXTTEXTTEXTTEXTTEXTTEXT</h2>
+        <p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+          TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+          TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
         </p>
       </div>
     </div>
 
     <div class="container">
-      <h2 class="title2">特別管理産業廃棄物</h2>
+      <h2 class="title2">TEXTTEXTTEXTTEXT</h2>
 
-      <div class="list list--responsive">
-        <div class="items">
-          <img src="img/injector.png" alt="injector.png">
-          <p>感染性医療廃棄物</p>
+      <div class="row">
+        <div class="items col-12 col-md-6 col-lg-4">
+          <img src="https://picsum.photos/id/14/3000/2000" alt="injector.png">
+          <p>item1</p>
         </div>
-        <div class="items">
-          <img src="img/medical_waste.png" alt="medical_waste.png">
-          <p>非感染性医療廃棄物</p>
+        <div class="items col-12 col-md-6 col-lg-4">
+          <img src="https://picsum.photos/id/15/3000/2000" alt="medical_waste.png">
+          <p>item2</p>
         </div>
-        <div class="items">
-          <img src="img/flow.png" alt="flow.png">
-          <p>処理フロー</p>
+        <div class="items col-12 col-md-6 col-lg-4">
+          <img src="https://picsum.photos/id/16/3000/2000" alt="flow.png">
+          <p>item3</p>
         </div>
 
       </div>
@@ -89,53 +96,53 @@
 
     <div class="top3">
       <div class="container">
-        <h2 class="title2">廃プラスチックの再利用への取り組み</h2>
-        <p class="top3-p">当社では街の自然を守り暮らしやすい環境づくりのため、より安全性の高い産業廃棄物処理を行っています。<br>
-          廃プラスチックの貯留や処理は、すべて建物内で行い、廃棄物の 飛散、流出および騒音を防止しています。<br>
-          また、持ち込まれる廃棄物の分析および検査など、厳重な管理体制のもとで廃プラスチック処理に取り組んでいます。
+        <h2 class="title2">TEXTTEXTTEXTTEXTTEXTTEXT</h2>
+        <p class="top3-p">TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+          TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
         </p>
-        <img class="pet" src="img/top_image3.png" alt="top_image3.png">
+        <img class="pet img-fluid" src="https://picsum.photos/id/46/300/200?blur=5" alt="top_image3.png">
         <div class="wrap">
           <div class="btn">
-            <img class="pet_icon" src="img/pet_icon.png" alt="pet_icon.png">
-            <a href="industrial_waste.html">詳しくはこちら</a>
+
+            <a href="industrial_waste.html" class="btn btn-warning"><i class="fas fa-location-arrow mr-2"></i>more detail</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="infomation">
+      <div class="infomation table-responsive">
         <h2 class="info">NEWS</h2>
-        <table>
+        <table class="table table-bordered table-dark">
           <tr>
-            <td>2015/06/013</td>
-            <td>ホームページをリニューアルいたしました。</td>
+            <td>2019/06/013</td>
+            <td>The homepage has been renewed.</td>
           </tr>
           <tr>
-            <td>2015/06/013</td>
-            <td>ホームページをリニューアルいたしました。</td>
+            <td>2019/06/013</td>
+            <td>The homepage has been renewed.</td>
           </tr>
           <tr>
-            <td>2015/06/013</td>
-            <td>ホームページをリニューアルいたしました。</td>
+            <td>2019/06/013</td>
+            <td>The homepage has been renewed.</td>
           </tr>
           <tr>
-            <td>2015/06/013</td>
-            <td>ホームページをリニューアルいたしました。</td>
+            <td>2019/06/013</td>
+            <td>The homepage has been renewed.</td>
           </tr>
         </table>
       </div>
 
       <div class="access">
-        <p class="message">医療廃棄物の収集運搬・産業廃棄物処理のことなら</p>
-        <p class="message message2">株式会社◯◯◯◯にお任せください。</p>
-        <div class="list list2">
-          <img class="call_icon" src="img/call.png" alt="call.png">
-          <p class="tell">0000-00-0000</p>
-          <div class="collum">
-            <p><span>【受付時間】</span>10：00～17：00</p>
-            <p><span>【休日】</span>土・日・祝</p>
+        <p class="message text-center">TEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
+        <p class="message message2 text-right text-md-center">TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
+        <div class="row justify-content-center">
+
+          <p class="tell col-auto col-md-auto"><i class="fas fa-phone-alt mr-3"></i>0123-45-6789</p>
+          <div class="collum col-auto">
+            <p><span>【text】</span>9：00～17：00</p>
+            <p><span>【text】</span>
+              Saturdays, Sundays, and holidays</p>
           </div>
         </div>
       </div>
@@ -149,27 +156,21 @@
     <div class="footer-box">
       <div class="container">
         <div class="menu menu2">
-          <a href="index.html">HOME</a>
-          <a href="medical_waste.html">医療廃棄物</a>
-          <a href="flow.html">医療廃棄物処理フロー</a>
-          <a href="industrial_waste.html">産業廃棄物処理</a>
-          <a href="company.html">会社概要</a>
+          <a href="index.html">page1</a>
+          <a href="medical_waste.html">page2</a>
+          <a href="flow.html">page3</a>
+          <a href="industrial_waste.html">page4</a>
+          <a href="company.html">page5</a>
         </div>
-        <div class="wrap1">
-          <div class="wrap2">
-            <div class="wrap3">
-              <img src="img/logo.png" alt="logo.png" class="logo">
-              <h1 class="title3">株式会社◯◯◯◯</h1>
-            </div>
-            <p>〒000-0000　愛知県岩倉市<br>
-              TEL：0000-00-0000　FAX：0000-00-0000<br>
-            </p>
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-sm-auto">
+            <h1 class="title3"><i class="fab fa-html5 fa-3x mt-3 ml-3 mr-3"></i>SampleHomePage1</h1>
           </div>
-          <div class="dummy">
-            <p class="copyright">Copyright (C)　2019　◯◯◯◯　Inc.　All Rights Reserved.</p>
-          </div>
+          <p class="col-12 col-sm-auto align-self-center">〒000-0000　TEXTTEXTTEXT<br>
+            TEL：0000-00-0000　FAX：0000-00-0000<br>
+          </p>
         </div>
-
+        <p class="copyright text-right">Copyright (C)　2019　◯◯◯◯　Inc.　All Rights Reserved.</p>
       </div>
     </div>
   </footer>
